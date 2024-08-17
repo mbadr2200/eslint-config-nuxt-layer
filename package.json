@@ -1,0 +1,25 @@
+{
+  "name": "eslintConfiguration",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "dev": "nuxi dev .playground",
+    "dev:prepare": "nuxt prepare .playground",
+    "build": "nuxt build .playground",
+    "generate": "nuxt generate .playground",
+    "preview": "nuxt preview .playground",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.26.0",
+    "@nuxt/eslint": "latest",
+    "eslint": "^9.7.0",
+    "eslint-plugin-format": "^0.1.2",
+    "nuxt": "^3.12.4",
+    "typescript": "^5.5.3",
+    "vite-plugin-eslint2": "^4.4.0",
+    "vue": "latest"
+  }
+}
